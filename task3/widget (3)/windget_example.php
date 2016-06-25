@@ -1,0 +1,1 @@
+window.myWidget.init.push(function(self){ // Прячем кнопку "Обратиться за поддержкой", а вместо нее показываем наш логотип $('.project_info-body-support a').remove(); $('.project_info-body-support').append($("Доработки и внедрение от")); return true; });
